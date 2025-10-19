@@ -63,7 +63,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
-  // CURLOPT_SSL_VERIFYPEER => 0   // Nodig bij Strato 
+  CURLOPT_SSL_VERIFYPEER => 0   // Nodig bij Strato 
 
 ));
 
