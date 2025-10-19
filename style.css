@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center, 
+.btn {
+        width: fit-content;
+        margin: auto;
+        margin-top: 5%;
+        font-weight: 500;
+    }
+
+    .btn {
+        margin-top: 2%;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    .table_center {
+        margin: auto;
+        max-width: 500px;
+        margin-top: 3%;
+    }
+
+    .table_center td {
+        max-width: 250px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    button {
+        background-color: #2b4c9c;
+        border-radius: 3px;
+        color: white;
+        padding: 5px;
+
+    }
+
+    .hide {
+    visibility: hidden;
+}
+       
+  .inputgroup {
+    position: relative;
+}
+
+    .licenseplate_container {
+    max-width: 520px;
+    min-height: 55px;
+    }
+
+   .licenseplate_container:before 
+    {
+    content: " ";
+    position: absolute;
+    height: calc(100%);
+    width: 10%;
+    background-color: #2b4c9c;
+    border-radius: 3px 0 0 3px;
+    background-image: url(./img/kenteken_eu.png);
+    background-size: 80% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    
+   .licenseplate {
+    background: #f0b504 none repeat scroll 0 0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 80px;
+    padding: 6px 4px 6px 38px;
+    width: 90%;
+    text-align: center;
+    letter-spacing: 12px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    }
+
+ input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 0s 600000s, color 0s 600000s !important;
+  }
+
