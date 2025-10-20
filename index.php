@@ -9,14 +9,6 @@
     <script defer src='./script.js'></script>
 </head>
 
-<!-- 
-Wensen: 
-
-- merk / type / handelsbenaming  v 
-- max 8 tekens invoeren in veld nummerbord v 
-- knop toon/verberg meer gegevens v 
-
--->
 <body>
 
 <div class="center">
@@ -27,9 +19,8 @@ Wensen:
 
 <div style="display: flex">
 <input class='licenseplate' type="text" id="lp" name="lp" maxlength="8">
-<div>
-    <a href='./'>X</a>
-</div>
+<a id="del_cross" href='./'>X</a>
+
 
 </div>
 
@@ -243,6 +234,7 @@ let showHideVar = true;
 let showHideBtn = document.getElementById('show_hide_button');
 let showHideTable = document.getElementById('show_hide');
 
+if (showHideBtn != null) {
  showHideBtn.innerText = 'Toon meer gegevens';
   showHideTable.setAttribute('class', 'hide');
 
@@ -260,6 +252,7 @@ let showHideTable = document.getElementById('show_hide');
         }       
 
         })
+    }
 </script>
 
 </body>
