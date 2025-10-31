@@ -13,6 +13,10 @@
 
 <div class="center">
 
+<div class="info">
+Voer een Nederlands kenteken in en druk op Enter. 
+</div>
+
 <form action=" " method="post">
 
 <div class="inputgroup licenseplate_container">
@@ -248,7 +252,7 @@ if (showHideBtn != null) {
         } 
         else {
             showHideTable.removeAttribute('class', 'hide');
-            showHideBtn.innerText = 'Minder gegevens';
+            showHideBtn.innerText = 'Toon minder gegevens';
         }       
 
         })

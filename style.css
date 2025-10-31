@@ -33,11 +33,18 @@ body {
         padding: 5px;
     }
 
+    .info {
+        font-style: italic;
+        padding: 10px;
+        text-align: center;
+    }
+
     button {
         background-color: #2b4c9c;
         border-radius: 3px;
         color: white;
         padding: 5px;
+        width: 150px;
 
     }
 
